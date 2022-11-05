@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row max-height align-items-center">
+          <div class="col-11 mx-auto col-md-6 quote-container p-5">
+            <button class="button" id="generate-btn">generate password</button>
+            <form class="form">
+              <div>
+              <label for="characterAmount">Number Of Characters</label>
+              <input type="range" min="1" max="50" value="10" id="characterAmount">
+              <label for="numberAmount"></label>  
+              <input type="number" min="1" max="50" value="10" id="numberAmount">
+            </div>
+            </form>
+    
+            <h3 class="pass" id="generate-pass"></h3>
+          </div>
+
+          <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
+
